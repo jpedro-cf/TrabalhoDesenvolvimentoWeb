@@ -11,8 +11,6 @@ services:
       MYSQL_PASSWORD: admin
     ports:
       - "3306:3306"
-    volumes:
-      - db_data:/var/lib/mysql
     networks:
       - app_network
 
@@ -39,9 +37,6 @@ services:
       - db
     networks:
       - app_network
-
-volumes:
-  db_data:
 
 networks:
   app_network:
