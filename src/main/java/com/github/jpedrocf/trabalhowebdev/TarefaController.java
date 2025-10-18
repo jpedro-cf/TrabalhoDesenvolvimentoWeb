@@ -1,7 +1,5 @@
-package com.github.jpedrocf.trabalhowebdev.controllers;
+package com.github.jpedrocf.trabalhowebdev;
 
-import com.github.jpedrocf.trabalhowebdev.models.Tarefa;
-import com.github.jpedrocf.trabalhowebdev.repositories.TarefaRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("tarefas")
+@RequestMapping("api/tarefas")
 public class TarefaController {
     private final TarefaRepository tarefaRepository;
 

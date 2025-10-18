@@ -1,6 +1,5 @@
-package com.github.jpedrocf.trabalhowebdev.repositories;
+package com.github.jpedrocf.trabalhowebdev;
 
-import com.github.jpedrocf.trabalhowebdev.models.Tarefa;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.github.jpedrocf.trabalhowebdev.models;
+package com.github.jpedrocf.trabalhowebdev;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
